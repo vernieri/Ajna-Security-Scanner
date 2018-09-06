@@ -1,17 +1,17 @@
-## Ajna-Security-Scanner
+# Ajna-Security-Scanner
 
 Ajna is a Network security Scanner
 
-# Requirements 
+## Requirements 
 
 Python 2.7
 Linux Kernel 4.16+
 
-# How Install It?
+## How Install It?
 
 Clone my repository
 
-# How I Run it?
+## How I Run it?
 
 1. after clone my repo open terminal
 2. go to the ajna folder
@@ -21,16 +21,16 @@ $ python ajna.py
 ``` 
 Pick a Option you want to scan and pass the informations asked.
 
-# Contribuing
+## Contribuing
 
 If You found a Bug or wants to help please, feel free to commit.
 If You want to contact me please: https://www.linkedin.com/in/jo%C3%A3o-victor-vernieri-087ab3148/
 
-# Version 
+## Version 
 
 AJNA IS PRÉ-RELEASE ON VERSION 0.31! 6 SEPTEMBER 2018
 
-# License
+## License
 
 AJNA is an Open Source Project
 Do Not copy my Functions
