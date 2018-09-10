@@ -5,8 +5,9 @@ Ajna is a Network security Scanner
 
 ## Requirements 
 
-Python 2.7
-Linux Kernel 4.16+
+Python 2.7,
+Linux Kernel 4.16+,
+Colorama 0.39+
 
 ## How Install It?
 
