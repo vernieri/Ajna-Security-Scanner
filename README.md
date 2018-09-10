@@ -30,7 +30,7 @@ If You want to contact me please: https://www.linkedin.com/in/jo%C3%A3o-victor-v
 
 ## Version 
 
-AJNA IS PRÉ-RELEASE ON VERSION 0.31! 6 SEPTEMBER 2018
+AJNA IS PRÉ-RELEASE ON VERSION a0.42, 10 SEPTEMBER 2018
 
 ## License
 
