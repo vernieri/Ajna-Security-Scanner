@@ -58,9 +58,11 @@ def whois():
 def systemdt():
 	print "[-] i'm still in dev..."
 
-def hostup():
-	print "[-] i'm still in dev..."
+def netup():
+	os.system('python modules/netup.py')
 
+def hostup():
+	os.system('python modules/hostup.py') 
 
 main()
 
