@@ -34,11 +34,5 @@ If You want to contact me please: https://bit.ly/2yih5wX
 AJNA IS PRÉ-RELEASE ON VERSION a0.64, 15 OCTOBER 2018
 
 ## License
-
-AJNA is an Open Source Project
-Do Not copy my Functions
-Do not copy my code
-Do Not Earn money with any part of MY code.
-Feel free to change Functions and add to your project only if your project is non-profit
-
-
+GPL-3.0
+Read License File for more info.
