@@ -10,6 +10,11 @@ Linux Kernel 4.16+,
 Colorama 0.39,
 NMAP 0.6.1+
 
+```
+$ pip install colorama
+$ pip install python-nmap
+```
+
 ## How Install It?
 
 Clone my repository
