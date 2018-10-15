@@ -27,7 +27,7 @@ Pick a Option you want to scan and pass the informations asked.
 ## Contribuing
 
 If You found a Bug or wants to help please, feel free to commit.
-If You want to contact me please: https://www.linkedin.com/in/jo%C3%A3o-victor-vernieri-087ab3148/
+If You want to contact me please: https://bit.ly/2yih5wX
 
 ## Version 
 
