@@ -19,7 +19,7 @@ with open(os.devnull, "wb") as limbo:
 
                 #ip="192.168.15.{0}".format(n)
                 nip = a+"."+b+"."+c+"."+"{0}".format(n) 
-                result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", ip], stdout=limbo, stderr=limbo).wait()
+                result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", nip], stdout=limbo, stderr=limbo).wait()
                 if result:
                         #print "[-] ", nip, "is inactive"
                         print "\r\n"
