@@ -7,7 +7,8 @@ Ajna is a Network security Scanner
 
 Python 2.7,
 Linux Kernel 4.16+,
-Colorama 0.39+
+Colorama 0.39,
+NMAP 0.6.1+
 
 ## How Install It?
 
@@ -30,7 +31,7 @@ If You want to contact me please: https://www.linkedin.com/in/jo%C3%A3o-victor-v
 
 ## Version 
 
-AJNA IS PRÉ-RELEASE ON VERSION a0.42, 10 SEPTEMBER 2018
+AJNA IS PRÉ-RELEASE ON VERSION a0.64, 15 OCTOBER 2018
 
 ## License
 
