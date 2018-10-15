@@ -56,7 +56,7 @@ def whois():
 
 
 def systemdt():
-	print "[-] i'm still in dev..."
+	os.system('python modules/osdetec-dev.py')
 
 def netup():
 	os.system('python modules/netup.py')
