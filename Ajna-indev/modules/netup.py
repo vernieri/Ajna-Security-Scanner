@@ -21,7 +21,8 @@ with open(os.devnull, "wb") as limbo:
                 nip = a+"."+b+"."+c+"."+"{0}".format(n) 
                 result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", nip], stdout=limbo, stderr=limbo).wait()
                 if result:
+                        pass
                         #print "[-] ", nip, "is inactive"
-                        print "\r\n"
+                        #print "\r\n"
                 else:
-                        print "[+] ", nip, "is active"
+                        print "[+] ", nip, "is active!"
