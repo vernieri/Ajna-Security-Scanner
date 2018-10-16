@@ -34,7 +34,7 @@ def main():
 			9 : exit,
 
 	}
-	num = input()
+	num = input("> ")
 	options[num]()
 
 def screen():
