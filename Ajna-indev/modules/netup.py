@@ -26,3 +26,5 @@ with open(os.devnull, "wb") as limbo:
                         #print "\r\n"
                 else:
                         print "[+] ", nip, "is active!"
+                        
+print "[!] Done!"
