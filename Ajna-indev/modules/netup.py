@@ -13,6 +13,9 @@ a,b,c,d = ip.split(".")
 
 
 
+print ""
+print "Scanning all the network, it may take a while..."
+print "Active routers will be printed below:"
 
 with open(os.devnull, "wb") as limbo:
         for n in xrange(0, 255):
