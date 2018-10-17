@@ -19,24 +19,23 @@ def main():
 	print "==============================="
 	print "|      WHAT U WANNA DO?       |"
 	print "|                             |"
-	print "|1. PortScanner               |"
-	print "|2. Service Scanner(dev)      |"
-	print "|3. OS Detect(dev)            |"
-	print "|4. Network Discovery(All)    |"
-	print "|5. Host Discovery(Single)    |"
+	print "|1. Host Discovery(Single)    |"
+	print "|2. Network Discovery(All)    |"
+	print "|3. Port Scanner              |"
+	print "|4. OS Detection(indev)       |"
+	print "|5. Service Scanner(indev)    |"
 	print "|9. Exit                      |"
 	print "===============================\r\n"
-	options = {1 : portscan,
-			2 : whois,
-			3 : systemdt,
-			4 : netup,
-			5 : hostup,
+	options = {1 : hostup,
+			2 : netup,
+			3 : portscan,
+			4 : systemdt,
+			5 : whois,
 			9 : exit,
 
 	}
 	num = input("> ")
 	options[num]()
-
 def screen():
 	cprint(figlet_format('AJNA', font='starwars'),
        'white', 'on_blue', attrs=['bold'])
