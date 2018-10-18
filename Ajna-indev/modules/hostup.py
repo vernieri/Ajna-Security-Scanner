@@ -9,8 +9,8 @@ rep = os.system("ping -c 1 " + server_ip)
 print ""
 if rep == 0:
     
-    print "[+] Server is up!"
+    print "[+] Server is Up!"
 else:
     
-    print "[-] Server is down!"
+    print "[-] Server is Down!"
 
