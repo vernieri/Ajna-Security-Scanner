@@ -12,7 +12,7 @@ from pyfiglet import figlet_format
 def main():
 	screen()
 	print "AJNA is a Security Scanner!"
-	print "       Version: a0.64"
+	print "       Version: a0.75"
 	print "           Made By: Vernieri\r\n"
 
 	print "--------------{0}--------------"
