@@ -36,7 +36,7 @@ If You want to contact me please: https://bit.ly/2yih5wX
 
 ## Version 
 
-AJNA IS PRÉ-RELEASE ON VERSION a0.64, 15 OCTOBER 2018
+AJNA IS PRÉ-RELEASE ON VERSION a0.75, 18 OCTOBER 2018
 
 ## License
 GPL-3.0
