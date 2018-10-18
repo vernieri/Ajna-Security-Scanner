@@ -6,8 +6,11 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  #Create a TCP/IP socket
 server_ip = raw_input("Target IP : ")
 rep = os.system("ping -c 1 " + server_ip)
 
+print ""
 if rep == 0:
-    print "server is up"
+    
+    print "[+] Server is up!"
 else:
-    print "server is down"
+    
+    print "[-] Server is down!"
 
