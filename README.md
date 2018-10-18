@@ -12,6 +12,7 @@ NMAP 0.6.1+
 
 ```
 $ pip install colorama
+$ pip install termcolor
 $ pip install python-nmap
 ```
 
