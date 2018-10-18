@@ -1,7 +1,7 @@
 # Ajna-Security-Scanner
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ajna_Mandala.svg/220px-Ajna_Mandala.svg.png)
 
-## Ajna is a Network security Scanner
+## Ajna is a Network Discovery Scanner
 
 ## Requirements 
 
