@@ -31,7 +31,7 @@ $ python ajna.py
 ``` 
 Pick a Option you want to scan and pass the informations asked.
 
-## Contribuing
+## Contributing
 
 If You found a Bug or wants to help please, feel free to commit.
 If You want to contact me please: https://bit.ly/2yih5wX
