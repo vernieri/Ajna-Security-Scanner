@@ -1,8 +1,9 @@
 #!/usr/share/python
 import socket, sys
-
+import threading
 import subprocess
 import os
+import time
 
 ip = raw_input("Your IP: ")
 ip.split(".")
