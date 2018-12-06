@@ -14,21 +14,23 @@ a,b,c,d = ip.split(".")
 
 
 
-print ""
-print "Scanning all the network, it may take a while..."
-print "Active routers will be printed below:"
+#print ""
+#print "Scanning all the network, it may take a while..."
+#print "Active routers will be printed below:"
 
-with open(os.devnull, "wb") as limbo:
-        for n in xrange(0, 255):
+def net1():
+        with open(os.devnull, "wb") as limbo:
+                for n in xrange(0, 63):
 
-                #ip="192.168.15.{0}".format(n)
-                nip = a+"."+b+"."+c+"."+"{0}".format(n) 
-                result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", nip], stdout=limbo, stderr=limbo).wait()
-                if result:
-                        pass
-                        #print "[-] ", nip, "is inactive"
-                        #print "\r\n"
-                else:
-                        print "[+] ", nip, "is active!"
-                        
-print "[!] Done!"
+                        #ip="192.168.15.{0}".format(n)
+                        nip = a+"."+b+"."+c+"."+"{0}".format(n) 
+                        result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", nip], stdout=limbo, stderr=limbo).wait()
+                        time.sleep(0.2)
+                        if result:
+                                pass
+                                #print "[-] ", nip, "is inactive"
+                                #print "\r\n"
+                        else:
+                                print "[+] ", nip, "is active!"
+                                
+        #print "[!] Done!"
