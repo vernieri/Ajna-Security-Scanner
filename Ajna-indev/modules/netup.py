@@ -51,3 +51,20 @@ def net2():
                                 print "[+] ", nip, "is active!"
                                 
         #print "[!] Done!"        
+
+def net3():
+        with open(os.devnull, "wb") as limbo:
+                for n in xrange(128, 191):
+
+                        #ip="192.168.15.{0}".format(n)
+                        nip = a+"."+b+"."+c+"."+"{0}".format(n) 
+                        result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", nip], stdout=limbo, stderr=limbo).wait()
+                        time.sleep(0.2)
+                        if result:
+                                pass
+                                #print "[-] ", nip, "is inactive"
+                                #print "\r\n"
+                        else:
+                                print "[+] ", nip, "is active!"
+                                
+        #print "[!] Done!"        
