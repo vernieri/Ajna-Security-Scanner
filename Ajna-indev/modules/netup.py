@@ -85,3 +85,24 @@ def net4():
                                 print "[+] ", nip, "is active!"
                                 
         #print "[!] Done!"        
+
+def main():
+        t = time.time()
+
+        t1 = threading.Thread(target=net1)
+        t2 = threading.Thread(target=net2)
+        t3 = threading.Thread(target=net3)
+        t4 = threading.Thread(target=net4)
+
+        t1.start()
+        t2.start()
+        t3.start()
+        t4.start()
+
+        t1.join()
+        t2.join() 
+        t3.join()
+        t4.join()     
+        print "[+] Done!"  
+
+main()         
