@@ -25,3 +25,17 @@ def portscan2():
 			time.sleep(0.1)
 			print "[+]",port," is Open!"
 			s.close					
+def main():
+    t = time.time()
+
+    t1 = threading.Thread(target=portscan1)
+    t2 = threading.Thread(target=portscan2)	
+
+    t1.start()
+    t2.start()   
+
+    t1.join()
+    t2.join()             
+    print "[+] Done!"  
+
+main()                 
