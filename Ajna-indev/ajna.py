@@ -13,7 +13,7 @@ def main():
 	screen()
 	print ""
 	print "AJNA is a Security Scanner!"
-	print "       Version: a0.81"
+	print "       Version: a0.92"
 	print "           Made By: Vernieri\r\n"
 
 	print "--------------{0}--------------"
