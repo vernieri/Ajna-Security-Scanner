@@ -14,7 +14,7 @@ NMAP 0.6.1+
 $ pip install colorama
 $ pip install termcolor
 $ pip install python-nmap
-$ pip install pyfliget
+$ pip install pyfiglet
 ```
 
 ## How Install It?
