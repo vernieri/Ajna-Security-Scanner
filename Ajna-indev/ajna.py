@@ -38,8 +38,8 @@ def main():
 	num = input("> ")
 	options[num]()
 def screen():
-	cprint(figlet_format('AJNA', font='starwars'),
-       'white', 'on_blue', attrs=['bold'])
+	cprint(figlet_format('AJNA', font='fender'),
+       'white', 'on_red', attrs=['bold'])
 
 def portscan():
 	#os.system('cd modules')
