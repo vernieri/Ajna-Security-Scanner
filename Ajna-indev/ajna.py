@@ -11,6 +11,7 @@ from pyfiglet import figlet_format
 
 def main():
 	screen()
+	print ""
 	print "AJNA is a Security Scanner!"
 	print "       Version: a0.81"
 	print "           Made By: Vernieri\r\n"
