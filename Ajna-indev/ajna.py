@@ -13,12 +13,14 @@ def main():
 	screen()
 	print ""
 	print "AJNA is a Security Scanner!"
-	print "       Version: a0.92"
+	print "       Version: a0.92 "
 	print "           Made By: Vernieri\r\n"
 
 	print "--------------{0}--------------"
 	print "==============================="
-	print "|      WHAT U WANNA DO?       |"
+	print "       XMAS 2018 EDITION!      "
+	print "==============================="
+	print "|      MARRY XMAS!            |"
 	print "|                             |"
 	print "|1. Host Discovery(Single)    |"
 	print "|2. Network Discovery(All)    |"
