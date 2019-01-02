@@ -13,14 +13,12 @@ def main():
 	screen()
 	print ""
 	print "AJNA is a Security Scanner!"
-	print "       Version: a0.92 "
+	print "       Version: a0.93 "
 	print "           Made By: Vernieri\r\n"
 
 	print "--------------{0}--------------"
 	print "==============================="
-	print "       XMAS 2018 EDITION!      "
-	print "==============================="
-	print "|      MARRY XMAS!            |"
+	print "|      What U wanna Do?       |"
 	print "|                             |"
 	print "|1. Host Discovery(Single)    |"
 	print "|2. Network Discovery(All)    |"
@@ -40,8 +38,8 @@ def main():
 	num = input("> ")
 	options[num]()
 def screen():
-	cprint(figlet_format('AJNA', font='fender'),
-       'white', 'on_red', attrs=['bold'])
+	cprint(figlet_format('AJNA', font='starwars'),
+       'white', 'on_blue', attrs=['bold'])
 
 def portscan():
 	#os.system('cd modules')
