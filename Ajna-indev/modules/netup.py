@@ -12,8 +12,6 @@ a,b,c,d = ip.split(".")
 #nip = a+"."+b+"."+c+"."+"d"
 #print nip
 
-
-
 #print ""
 #print "Scanning all the network, it may take a while..."
 #print "Active routers will be printed below:"
