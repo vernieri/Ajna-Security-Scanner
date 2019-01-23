@@ -11,20 +11,19 @@ from pyfiglet import figlet_format
 
 def main():
 	screen()
-	print ""
 	print "AJNA is a Security Scanner!"
-	print "       Version: a0.93 "
+	print "       Version: a0.99"
 	print "           Made By: Vernieri\r\n"
 
 	print "--------------{0}--------------"
 	print "==============================="
-	print "|      What U wanna Do?       |"
+	print "|      WHAT U WANNA DO?       |"
 	print "|                             |"
 	print "|1. Host Discovery(Single)    |"
 	print "|2. Network Discovery(All)    |"
 	print "|3. Port Scanner              |"
-	print "|4. OS Detection(indev)       |"
-	print "|5. Service Scanner(indev)    |"
+	print "|4. OS Detection(must be root)|"
+	print "|5. Service Scanner           |"
 	print "|9. Exit                      |"
 	print "===============================\r\n"
 	options = {1 : hostup,
