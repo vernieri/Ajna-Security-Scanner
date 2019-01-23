@@ -15,6 +15,7 @@ $ pip install colorama
 $ pip install termcolor
 $ pip install python-nmap
 $ pip install pyfiglet
+$ pip install python-nmap
 ```
 
 ## How Install It?
