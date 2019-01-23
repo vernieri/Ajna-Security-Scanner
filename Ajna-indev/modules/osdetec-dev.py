@@ -1,6 +1,4 @@
 #!/usr/share/python
-# i'm still working on it to be more accurate.
-# if u have a better solution please commit :) 
 import socket, sys
 
 import subprocess
