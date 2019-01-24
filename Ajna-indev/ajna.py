@@ -22,7 +22,7 @@ def main():
 	print "|1. Host Discovery(Single)    |"
 	print "|2. Network Discovery(All)    |"
 	print "|3. Port Scanner              |"
-	print "|4. OS Detection(must be root)|"
+	print "|4. OS Detection(as root)     |"
 	print "|5. Service Scanner           |"
 	print "|9. Exit                      |"
 	print "===============================\r\n"
