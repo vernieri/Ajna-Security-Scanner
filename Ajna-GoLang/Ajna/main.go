@@ -38,3 +38,13 @@ func parserArgs(args []string) string{
 
 	return d
 }
+
+func ip(args string) string{
+    var ip string = args
+    //s := strings.Split("127.0.0.1:5432", ":")
+    //ip, port := s[0], s[1]
+    //p("IP:", ip)
+    //p("Porta:", port)
+    p(ip)
+    return args
+}
