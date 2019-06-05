@@ -1,17 +1,17 @@
 package main
 
+// Libraries
 import (
     "fmt"
     "os"
     "strings"
-    
 )
 
 var p = fmt.Println
 var args string 
 //var args strings 
 
-
+// Main
 func main() {
 	args := os.Args
 	//arg2 := os.Args[2]
@@ -20,6 +20,7 @@ func main() {
 
 }
 
+//Let's parse arguments to discovery where do we go
 func parserArgs(args []string) string{
 	var d string
 	p(args)
@@ -39,6 +40,7 @@ func parserArgs(args []string) string{
 	return d
 }
 
+//for now i'm commiting IP func here, i might change it in the future.
 func ip(args string) string{
     var ip string = args
     //s := strings.Split("127.0.0.1:5432", ":")
